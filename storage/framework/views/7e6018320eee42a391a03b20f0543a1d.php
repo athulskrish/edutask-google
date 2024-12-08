@@ -48,7 +48,7 @@
                     <div class="row">
                         <div class="col-3">
                             <div class="mobile-bottom-menu">
-                                <a href="<?php echo e(url('/')); ?>" title="">
+                                <a href="<?php echo e(url('/')); ?>" title="Home">
                                     <i data-feather="home"></i>
                                 </a>
                             </div>

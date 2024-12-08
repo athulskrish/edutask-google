@@ -48,7 +48,7 @@
                     <div class="row">
                         <div class="col-3">
                             <div class="mobile-bottom-menu">
-                                <a href="{{ url('/') }}" title="">
+                                <a href="{{ url('/') }}" title="Home">
                                     <i data-feather="home"></i>
                                 </a>
                             </div>
