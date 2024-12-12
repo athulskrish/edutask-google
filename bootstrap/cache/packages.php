@@ -34,13 +34,13 @@
   ),
   'barryvdh/laravel-debugbar' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Barryvdh\\Debugbar\\ServiceProvider',
-    ),
     'aliases' => 
     array (
       'Debugbar' => 'Barryvdh\\Debugbar\\Facades\\Debugbar',
+    ),
+    'providers' => 
+    array (
+      0 => 'Barryvdh\\Debugbar\\ServiceProvider',
     ),
   ),
   'berkayk/onesignal-laravel' => 
@@ -81,13 +81,13 @@
   ),
   'devmarketer/easynav' => 
   array (
-    'providers' => 
-    array (
-      0 => 'DevMarketer\\EasyNav\\EasyNavServiceProvider',
-    ),
     'aliases' => 
     array (
       'Nav' => 'DevMarketer\\EasyNav\\EasyNavFacade',
+    ),
+    'providers' => 
+    array (
+      0 => 'DevMarketer\\EasyNav\\EasyNavServiceProvider',
     ),
   ),
   'fruitcake/laravel-cors' => 
@@ -120,13 +120,13 @@
   ),
   'intervention/image' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Intervention\\Image\\ImageServiceProvider',
-    ),
     'aliases' => 
     array (
       'Image' => 'Intervention\\Image\\Facades\\Image',
+    ),
+    'providers' => 
+    array (
+      0 => 'Intervention\\Image\\ImageServiceProvider',
     ),
   ),
   'itskodinger/midia' => 
@@ -168,13 +168,13 @@
   ),
   'kingflamez/laravelrave' => 
   array (
-    'providers' => 
-    array (
-      0 => 'KingFlamez\\Rave\\RaveServiceProvider',
-    ),
     'aliases' => 
     array (
       'Rave' => 'KingFlamez\\Rave\\Facades\\Rave',
+    ),
+    'providers' => 
+    array (
+      0 => 'KingFlamez\\Rave\\RaveServiceProvider',
     ),
   ),
   'kkomelin/laravel-translatable-string-exporter' => 
@@ -257,13 +257,13 @@
   ),
   'mews/purifier' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Mews\\Purifier\\PurifierServiceProvider',
-    ),
     'aliases' => 
     array (
       'Purifier' => 'Mews\\Purifier\\Facades\\Purifier',
+    ),
+    'providers' => 
+    array (
+      0 => 'Mews\\Purifier\\PurifierServiceProvider',
     ),
   ),
   'mollie/laravel-mollie' => 
@@ -311,13 +311,13 @@
   ),
   'nwidart/laravel-modules' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Nwidart\\Modules\\LaravelModulesServiceProvider',
-    ),
     'aliases' => 
     array (
       'Module' => 'Nwidart\\Modules\\Facades\\Module',
+    ),
+    'providers' => 
+    array (
+      0 => 'Nwidart\\Modules\\LaravelModulesServiceProvider',
     ),
   ),
   'obydul/laraskrill' => 
@@ -383,13 +383,13 @@
   ),
   'shipu/php-aamarpay-payment' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Shipu\\Aamarpay\\AamarpayServiceProvider',
-    ),
     'aliases' => 
     array (
       'Aamarpay' => 'Shipu\\Aamarpay\\Facades\\Aamarpay',
+    ),
+    'providers' => 
+    array (
+      0 => 'Shipu\\Aamarpay\\AamarpayServiceProvider',
     ),
   ),
   'silviolleite/laravelpwa' => 
@@ -412,16 +412,16 @@
   ),
   'smodav/mpesa' => 
   array (
-    'providers' => 
-    array (
-      0 => 'SmoDav\\Mpesa\\Laravel\\ServiceProvider',
-    ),
     'aliases' => 
     array (
       'STK' => 'SmoDav\\Mpesa\\Laravel\\Facades\\STK',
+      'Identity' => 'SmoDav\\Mpesa\\Laravel\\Facades\\Identity',
       'Simulate' => 'SmoDav\\Mpesa\\Laravel\\Facades\\Simulate',
       'Registrar' => 'SmoDav\\Mpesa\\Laravel\\Facades\\Registrar',
-      'Identity' => 'SmoDav\\Mpesa\\Laravel\\Facades\\Identity',
+    ),
+    'providers' => 
+    array (
+      0 => 'SmoDav\\Mpesa\\Laravel\\ServiceProvider',
     ),
   ),
   'spatie/laravel-activitylog' => 
@@ -447,24 +447,24 @@
   ),
   'spatie/laravel-googletagmanager' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Spatie\\GoogleTagManager\\GoogleTagManagerServiceProvider',
-    ),
     'aliases' => 
     array (
       'GoogleTagManager' => 'Spatie\\GoogleTagManager\\GoogleTagManagerFacade',
     ),
+    'providers' => 
+    array (
+      0 => 'Spatie\\GoogleTagManager\\GoogleTagManagerServiceProvider',
+    ),
   ),
   'spatie/laravel-ignition' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
-    ),
     'aliases' => 
     array (
       'Flare' => 'Spatie\\LaravelIgnition\\Facades\\Flare',
+    ),
+    'providers' => 
+    array (
+      0 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
     ),
   ),
   'spatie/laravel-image-optimizer' => 
@@ -498,13 +498,13 @@
   ),
   'spatie/laravel-signal-aware-command' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Spatie\\SignalAwareCommand\\SignalAwareCommandServiceProvider',
-    ),
     'aliases' => 
     array (
       'Signal' => 'Spatie\\SignalAwareCommand\\Facades\\Signal',
+    ),
+    'providers' => 
+    array (
+      0 => 'Spatie\\SignalAwareCommand\\SignalAwareCommandServiceProvider',
     ),
   ),
   'spatie/laravel-sitemap' => 
@@ -523,13 +523,13 @@
   ),
   'stechstudio/laravel-zipstream' => 
   array (
-    'providers' => 
-    array (
-      0 => 'STS\\ZipStream\\ZipStreamServiceProvider',
-    ),
     'aliases' => 
     array (
       'Zip' => 'STS\\ZipStream\\ZipStreamFacade',
+    ),
+    'providers' => 
+    array (
+      0 => 'STS\\ZipStream\\ZipStreamServiceProvider',
     ),
   ),
   'tanmuhittin/laravel-google-translate' => 
@@ -570,13 +570,13 @@
   ),
   'tzsk/payu' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Tzsk\\Payu\\PayuServiceProvider',
-    ),
     'aliases' => 
     array (
       'Payu' => 'Tzsk\\Payu\\Facades\\Payu',
+    ),
+    'providers' => 
+    array (
+      0 => 'Tzsk\\Payu\\PayuServiceProvider',
     ),
   ),
   'unicodeveloper/laravel-paystack' => 
